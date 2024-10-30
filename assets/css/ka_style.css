@@ -1,0 +1,33 @@
+.ka-layout{
+	text-align:center;
+}
+#keyword-analyzer {
+	display:flex;
+	margin: auto;
+	align-items:center;
+	flex-direction: column;
+}
+
+#keyword-analyzer table {
+  	border: 1px solid black;
+	font-size:13pt;
+	padding: 20px;
+	margin:20px;
+}
+table {
+	text-align:left;
+}
+
+tr, td {
+  	border: 1px solid black;
+	padding:5px;
+}
+
+td:nth-child(3) {
+	color: green;
+}
+
+td:nth-child(2) {
+	font-style: italic;
+}
+
